@@ -1,8 +1,9 @@
 def my_function(a, b):
     return a + b
 
-lst = input("Enter two values: ").split()
+a = float(input("Enter a number: "))
+b = float(input("Enter another number: "))
 
-result = "{:.2f}".format(my_function(float(lst[0]), float(lst[1])))
+result = "{:.2f}".format(my_function(a, b))
 
 print(f'Their sum is {result}.')
